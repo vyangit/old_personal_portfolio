@@ -10,6 +10,14 @@ nav {
     padding: 15px;
 }
 
+nav a:before{
+
+}
+
+nav a:hover:after{
+    
+}
+
 .left {
     text-align: left;
     float: left;

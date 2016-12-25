@@ -5,26 +5,46 @@ body {
     height: 100%;
 }
 
+/* Navbar */
+
 nav {
     position: fixed;
     padding: 15px;
 }
 
-nav a:before{
-
-}
-
-nav a:hover:after{
-    
-}
-
-.left {
+nav div.left {
     text-align: left;
     float: left;
 }
 
-.right {
+nav div.right {
     text-align: right;
     float: right;
 }
 
+/* General template for sections */
+
+
+/* About me section */
+
+/* Education section */
+
+/* Work section */
+
+/* Portfolio section */
+
+/* Footer or contact section */
+footer {
+    text-align: center;
+    display: block;
+}
+
+footer i{
+    padding: 5px;
+}
+
+/*TODOs and TOorganize*/
+/*Banners are section title headers */
+.banner{
+    
+}

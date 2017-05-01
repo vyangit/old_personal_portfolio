@@ -4,116 +4,110 @@
 	<title>Victor Yan (Ongoing project)</title>
     <meta charset="utf-8"/>
 
+	<!-- General Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Embedded link to icons -->
+	<script src="https://use.fontawesome.com/9ccd0dd50d.js"></script>
+
 	<!-- Spreadsheets -->
 	<link type="text/css" href="./style.css" rel="stylesheet" media="all" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Embedded link to icons -->
-	<script src="https://use.fontawesome.com/9ccd0dd50d.js"></script>
 
 </head>
 
 <body>
 	<div class="loader">
-			<div class="wrapper">
+			<div class="container">
 			<!--Page header-->
 				<header class="header">
+					<div class="wrapper">
+						<center>
+							Victor Yan
+						</center>
 
-					<center>
-						Victor Yan
-					</center>
+						<div class="left">
+							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+							<!--<ul>
+								<a href="#about-me">About Me</a>
+								<a href="#education">Education</a>
+								<a href="#work">Work</a>
+								<a href="#portfolio">Portfolio</a>
+								<a href="#contact">Contact</a>
+							</ul>-->
+						</div>
 
-					<div class="left">
-						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-						<!--<ul>
-							<a href="#about-me">About Me</a>
-							<a href="#education">Education</a>
-							<a href="#work">Work</a>
-							<a href="#portfolio">Portfolio</a>
-							<a href="#contact">Contact</a>
-						</ul>-->
-					</div>
-
-					<div class="right">
-							<a href="https://github.com/vyangit"><span class="fa fa-github fa-2x" aria-hidden="true"></span></a>
-							<a href="https://ca.linkedin.com/in/vicyan"><span class="fa fa-linkedin-square fa-2x" aria-hidden="true"></span></a>
-							<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+						<div class="right">
+								<a href="https://github.com/vyangit"><span class="fa fa-github fa-2x" aria-hidden="true"></span></a>
+								<a href="https://ca.linkedin.com/in/vicyan"><span class="fa fa-linkedin-square fa-2x" aria-hidden="true"></span></a>
+								<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+						</div>
 					</div>
 				</header>
 
+				<!--Wrapper for website content-->
+				<div class="container">
+					<div class="wrapper">
 
-			<!--Container for website content-->
-			<div>
+						<about-me class="overlay-section">
+							<div class="section-title">
+							About me
+							</div>
 
-				<about-me>
-					<div class="banner">
-					About me
+							<div style ="display:inline">
+								<img src="Victor.jpg" alt="A picture of me :D"></img>
+								<p>
+									Hi, my name is Victor! I am a 4th year student studying at the University of British Columbia, and
+									 I am currently pursuing a Combined Degree in Microbiology and Computer Science. When I started my studies
+									 at UBC, I initially planned to enroll in the UBC Pharmacy Program and establish a career in the pharmaceutical industry.
+									 Back then, I was driven with the sole purpose of making everyday life easier for people through ease of access to
+									 professional help. However, upon the completion of my 2nd year of UBC, I started to develop a passion for the fun, dynamic and technological
+									 world of computer science! I was drawn to computer science because I felt the skills I would learn would better help me achieve my goal
+									 of making life easier for people of all backgrounds. In addition, computer science reignited another interest of mine which is to create.
+									 For these reasons, I chose to make the transition and now here I am (plus with my own website)!
+								 </p>
+							</div>
+						</about-me>
+
+						<education class="overlay-section">
+							<div class="section-title">
+							Education
+							</div>
+
+							<div style="display:block">
+								<p> University of British Columbia (UBC) </p>
+								<p> Bachelor of Science </p>
+								<p> Combined Major in Microbiology & Immunology and Computer Science </p>
+								<p> September 2013 - Present </p>
+							</div>
+						</education>
+
+						<work class="overlay-section">
+							<div class="section-title">
+							Work
+							</div>
+
+							<div style="display:block">
+								<img src = "UBC.jpg" alt="UBC logo">
+								<p> University of British Columbia (UBC) </p>
+								<p> Computer Science Teaching Assistant </p>
+								<p> September 2015 - December 2016</p>
+							</div>
+						</work>
+
+						<portfolio class="overlay-section">
+							<div class="section-title">
+							Portfolio
+							</div>
+							<div>
+								Section includes square emblems of completed and ongoing projects with links to them. Should update github descriptions as well.
+							</div>
+						</portfolio>
+
 					</div>
-
-					<div style ="display:inline">
-						<img src="Victor.jpg" alt="A picture of me :D" style ="float:left">
-						<p style ="float:right">
-							Hi, my name is Victor! I am a 4th year student studying at the University of British Columbia, and
-							 I am currently pursuing a Combined Degree in Microbiology and Computer Science. When I started my studies
-							 at UBC, I initially planned to enroll in the UBC Pharmacy Program and establish a career in the pharmaceutical industry.
-							 Back then, I was driven with the sole purpose of making everyday life easier for people through ease of access to
-							 professional help. However, upon the completion of my 2nd year of UBC, I started to develop a passion for the fun, dynamic and technological
-							 world of computer science! I was drawn to computer science because I felt the skills I would learn would better help me achieve my goal
-							 of making life easier for people of all backgrounds. In addition, computer science reignited another interest of mine which is to create.
-							 For these reasons, I chose to make the transition and now here I am (plus with my own website)!
-						 </p>
-					</div>
-				</about-me>
-
-				<education>
-					<div class="banner">
-					Education
-					</div>
-
-					<div style="display:block">
-						<p> University of British Columbia (UBC) </p>
-						<p> Bachelor of Science </p>
-						<p> Combined Major in Microbiology & Immunology and Computer Science </p>
-						<p> September 2013 - Present </p>
-					</div>
-				</education>
-
-				<work>
-					<div class="banner">
-					Work
-					</div>
-
-					<div style="display:block">
-						<img src = "UBC.jpg" alt="UBC logo">
-						<p> University of British Columbia (UBC) </p>
-						<p> Computer Science Teaching Assistant </p>
-						<p> September 2015 - December 2016</p>
-					</div>
-				</work>
-
-				<portfolio>
-					<div class="banner">
-					Portfolio
-					</div>
-					<div>
-						Section includes square emblems of completed and ongoing projects with links to them. Should update github descriptions as well.
-					</div>
-				</portfolio>
-
+				</div>
 			</div>
 		</div>
-	</div>
-	<!--<footer>
-		<contact>
-			<div>
-				<a href="https://github.com/vyangit"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-				<a href="https://ca.linkedin.com/in/vicyan"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-				<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-			</div
-			<div>
-				<i class="fa fa-copyright" aria-hidden="true"></i> 2016 Victor Yan
-			</div>
-		</contact>
-	</footer> -->
 
 </body>
 </html>

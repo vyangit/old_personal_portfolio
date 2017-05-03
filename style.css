@@ -3,7 +3,16 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-image:
+}
+
+.loader {
+
+}
+
+.main-page{
+  background: url("img/background.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Containers */
@@ -17,8 +26,21 @@ body {
 }
 
 /* Menu design */
+.menu {
+  height: 39px;
+  width: 128px;
+}
+
+.menu .text{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+  padding-left: 14px;
+  position:absolute;
+}
+
 .menu-icon {
-    display: inline-block;
+    display: inline;
     cursor: pointer;
 }
 
@@ -30,9 +52,21 @@ body {
     transition: 0.4s;
 }
 
+.expand .bar1 {
+
+}
+
+.expand .bar2 {
+
+}
+
+.expand .bar3 {
+
+}
+
 /* Header */
 
-header, div {
+header {
   display:block;
 }
 
@@ -53,7 +87,7 @@ header, div {
 }
 
 .section-title {
-  display:block;
+  display: block;
 }
 
 about-me, education, work, portfolio {

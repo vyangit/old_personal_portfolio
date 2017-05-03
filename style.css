@@ -40,7 +40,7 @@ body {
 }
 
 .menu-icon {
-    display: inline;
+    display: inline-block;
     cursor: pointer;
 }
 

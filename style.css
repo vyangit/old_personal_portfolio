@@ -10,7 +10,7 @@ body {
 }
 
 .main-page{
-  background: url("./img/background.jpg") no-repeat fixed;
+  background: url('./img/background.jpg') no-repeat fixed;
   background-size: cover;
   background-position: center;
 }

@@ -6,12 +6,13 @@
 
 	<!-- General Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts.js"></script>
 
 	<!-- Embedded link to icons -->
 	<script src="https://use.fontawesome.com/9ccd0dd50d.js"></script>
 
 	<!-- Spreadsheets -->
-	<link type="text/css" href="./style.css" rel="stylesheet" media="all" />
+	<link type="text/css" href="style.css" rel="stylesheet" media="all" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
@@ -24,20 +25,23 @@
 					<div class="wrapper">
 						<div class="left">
 							<div class="menu">
-								<span class="menu-icon" onclick="myFunction(this)">
+								<span class="menu-icon" onclick="toggleX(this)">
 	  							<div class="bar1"></div>
 	  							<div class="bar2"></div>
 	  							<div class="bar3"></div>
 								</span>
 								<span class="text">MENU</span>
 							</div>
-							<!--<ul>
-								<a href="#about-me">About Me</a>
-								<a href="#education">Education</a>
-								<a href="#work">Work</a>
-								<a href="#portfolio">Portfolio</a>
-								<a href="#contact">Contact</a>
-							</ul>-->
+							<div class="menu-items">
+								<div class="left group">
+									<p> About Me </p>
+									<p> Education </p>
+								</div>
+								<div class ="right group">
+									<p> Work </p>
+									<p> Portfolio </p>
+								</div>
+							</div>
 						</div>
 
 						<div class="right">
@@ -45,9 +49,10 @@
 								<a href="https://ca.linkedin.com/in/vicyan"><span class="fa fa-linkedin-square fa-3x" aria-hidden="true"></span></a>
 								<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
 						</div>
-						<center>
+
+						<div class="logo">
 							<img src="Victor.jpg" alt = "Victor Yan" height="128" width="256"></img>
-						</center>
+						</div>
 					</div>
 				</header>
 

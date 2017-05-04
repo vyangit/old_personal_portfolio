@@ -1,3 +1,3 @@
-function menuToggle(x) {
+function toggleX(x) {
     x.classList.toggle("expand");
 }

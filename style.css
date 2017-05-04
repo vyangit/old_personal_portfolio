@@ -53,33 +53,50 @@ body {
 }
 
 .expand .bar1 {
-
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
 .expand .bar2 {
-
+  opacity: 0;
 }
 
 .expand .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
 
+.menu-items {
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.menu-items .group {
+  margin:5px;
+  padding:10px;
 }
 
 /* Header */
 
 header {
-  display:block;
+  display: block;
+}
+
+.logo {
+  margin: auto;
+  width: 256px;
 }
 
 .left {
-    text-align: left;
-    float: left;
-    display:inline-block;
+  float: left;
+  display: inline-block;
+
 }
 
 .right {
-    text-align: right;
-    float: right;
-    display:inline-block;
+  float: right;
+  display: inline-block;
+
 }
 
 /* General template for sections */

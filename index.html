@@ -17,12 +17,12 @@
 
 </head>
 
-<body class="main-page" background="./img/background.jpg">
+<body class="main-page">
 	<div class="loader">
-			<div class="container">
+		<div class="container-fluid">
 			<!--Page header-->
-				<header class="header">
-					<div class="wrapper">
+			<div class="container">
+					<header class="header">
 						<div class="left">
 							<div class="menu">
 								<span class="menu-icon" onclick="toggleX(this)">
@@ -57,17 +57,21 @@
 								<a href="https://ca.linkedin.com/in/vicyan"><span class="fa fa-linkedin-square fa-3x" aria-hidden="true"></span></a>
 								<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
 						</div>
-
+						<!--
 						<div class="logo">
 							<img src="./img/logo.jpg" alt = "Victor Yan" height="128" width="256"></img>
-						</div>
-					</div>
-				</header>
+						</div>-->
+					</header>
+				</div>
 
 				<!--Wrapper for website content-->
-				<div class="wrapper">
+				<div class="container">
 
-					<about-me class="overlay-section">
+					<div id="intro" class="overlay-intro">
+						<h1>Welcome, my name is Victor <span class="blinker"></span></h1>
+					</div>
+
+					<div id="about-me" class="overlay-section">
 						<div class="section-title">
 						About me
 						</div>
@@ -85,9 +89,9 @@
 								 For these reasons, I chose to make the transition and now here I am (plus with my own website)!
 							 </p>
 						</div>
-					</about-me>
+					</div>
 
-					<education class="overlay-section">
+					<div id="education" class="overlay-section">
 						<div class="section-title">
 						Education
 						</div>
@@ -98,9 +102,9 @@
 							<p> Combined Major in Microbiology & Immunology and Computer Science </p>
 							<p> September 2013 - Present </p>
 						</div>
-					</education>
+					</div>
 
-					<work class="overlay-section">
+					<div id="work" class="overlay-section">
 						<div class="section-title">
 						Work
 						</div>
@@ -111,9 +115,9 @@
 							<p> Computer Science Teaching Assistant </p>
 							<p> September 2015 - December 2016</p>
 						</div>
-					</work>
+					</div>
 
-					<portfolio class="overlay-section">
+					<div id="portfolio" class="overlay-section">
 						<div class="section-title">
 						Portfolio
 						</div>
@@ -121,7 +125,7 @@
 						<div>
 							Section includes square emblems of completed and ongoing projects with links to them. Should update github descriptions as well.
 						</div>
-					</portfolio>
+					</div>
 
 				</div>
 			</div>

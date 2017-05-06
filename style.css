@@ -1,12 +1,12 @@
 html, body {
-    display: block;
-    margin: 0;
-    height: 100%;
-
+  display: block;
+  margin: 0;
+  height: 100%;
+  color: #343434;
 }
 
 .fa {
-  color: #333;
+  color: #343434;
 }
 
 .main-page{
@@ -17,9 +17,26 @@ html, body {
   background-position: center;
 }
 
-.loader, {
-  margin: 0;
+.loader {
   height: 100%;
+}
+
+/* General hacks */
+.left {
+  float: left;
+  display: inline-block;
+
+}
+
+.right {
+  float: right;
+  display: inline-block;
+
+}
+
+.fill-height {
+ height: 100%;
+ margin:0;
 }
 
 /* Containers */
@@ -76,7 +93,7 @@ html, body {
 .menu-items {
   font-size: 20px;
   font-weight:bold;
-  display:none;
+  display:block;
 }
 
 .menu-items:hover {
@@ -84,37 +101,27 @@ html, body {
 }
 
 .menu-items .group {
-  margin:5px;
-  padding:10px;
+  margin:4px;
+  padding:8px;
 }
 
 /* Header */
 
-header {
+.header {
   display: block;
-}
-
-.logo {
-  margin: auto;
-  width: 256px;
-}
-
-.left {
-  float: left;
-  display: inline-block;
-
-}
-
-.right {
-  float: right;
-  display: inline-block;
-
+  height: 140px;
 }
 
 /* General template for sections */
 .overlay-section {
-  height:100%
+  color: black;
+  height: 65%;
+  background-color: rgba(256,256,256,0.3);
 
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
 .section-title {
@@ -123,8 +130,10 @@ header {
 
 /* Intro section */
 .overlay-intro {
+  height: 65%;
   text-align: center;
-  margin:20%;
+  margin: 20%;
+  display:none;
 }
 
 .blinker{}
@@ -137,6 +146,19 @@ header {
 
 /* Portfolio section */
 
-#about-me, #education, #work, #portfolio {
+#education, #work, #portfolio {
   display: none;
+  padding: 5%;
+}
+
+#about-me{
+  display:block;
+  padding: 5%;
+}
+
+/* Footer */
+.footer {
+  color: #343434;
+  text-align: center;
+  margin: 2%;
 }

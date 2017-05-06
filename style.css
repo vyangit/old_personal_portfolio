@@ -2,11 +2,11 @@ html, body {
   display: block;
   margin: 0;
   height: 100%;
-  color: #343434;
+  color: #1a1a1a;
 }
 
 .fa {
-  color: #343434;
+  color: #1a1a1a;
 }
 
 .main-page{
@@ -53,6 +53,7 @@ html, body {
 .menu {
   height: 39px;
   width: 128px;
+  color: #1a1a1a;
 }
 
 .menu .text{
@@ -71,7 +72,7 @@ html, body {
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #1a1a1a;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -91,9 +92,10 @@ html, body {
 }
 
 .menu-items {
+  color: #1a1a1a;
   font-size: 20px;
   font-weight:bold;
-  display:block;
+  display:none;
 }
 
 .menu-items:hover {
@@ -105,6 +107,19 @@ html, body {
   padding:8px;
 }
 
+.menu-items ul{
+  list-style: none;
+}
+
+.menu-items ul li{
+  display: inline;
+}
+
+.menu-items ul li:before{
+  content: "|";
+  padding: 8px;
+}
+
 /* Header */
 
 .header {
@@ -114,9 +129,10 @@ html, body {
 
 /* General template for sections */
 .overlay-section {
-  color: black;
+  display:none;
   height: 65%;
   background-color: rgba(256,256,256,0.3);
+  color: #1a1a1a;
 
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -126,19 +142,30 @@ html, body {
 
 .section-title {
   display: block;
+  font-size: 5vmin;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 /* Intro section */
 .overlay-intro {
   height: 65%;
   text-align: center;
-  margin: 20%;
-  display:none;
+  padding: 10%;
+  display:block;
 }
 
 .blinker{}
 
 /* About me section */
+
+.profile-pic{
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
 
 /* Education section */
 
@@ -146,19 +173,19 @@ html, body {
 
 /* Portfolio section */
 
-#education, #work, #portfolio {
+#profile, #work, #portfolio {
   display: none;
-  padding: 5%;
+  padding: 3%;
 }
 
-#about-me{
-  display:block;
-  padding: 5%;
+#education{
+  display: block;
+  padding: 3%;
 }
 
 /* Footer */
 .footer {
-  color: #343434;
+  color: #1a1a1a;
   text-align: center;
   margin: 2%;
 }

@@ -40,8 +40,6 @@ html, body {
 }
 
 /* Containers */
-.container {
-}
 
 .container-fluid {
   margin: 0;
@@ -95,7 +93,7 @@ html, body {
   color: #1a1a1a;
   font-size: 20px;
   font-weight:bold;
-  display:none;
+  display:block;
 }
 
 .menu-items:hover {
@@ -124,27 +122,69 @@ html, body {
 
 .header {
   display: block;
-  height: 140px;
+  height: 120px;
 }
 
-/* General template for sections */
-.overlay-section {
-  display:none;
-  height: 65%;
-  background-color: rgba(256,256,256,0.3);
-  color: #1a1a1a;
-
+/* General template for section components */
+.rounded {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; /* future proofing */
   -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
+.overlay-section {
+  display:display;
+  height: 70%;
+  background-color: rgba(256,256,256,0.3);
+  color: #1a1a1a;
+}
+
 .section-title {
   display: block;
+  height: 20%;
   font-size: 5vmin;
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+.section-main {
+  height: 75%;
+}
+
+.overlay-card {
+  position: relative;
+  height:240px;
+  width:240px;
+}
+
+.card-image {
+  height:240px;
+  width:240px;
+}
+
+.card-text{
+  color: white;
+  font-size: 15px;
+
+}
+
+.overlay {
+  padding: 10%;
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay-card:hover .overlay {
+  opacity: 1;
 }
 
 /* Intro section */
@@ -152,20 +192,12 @@ html, body {
   height: 65%;
   text-align: center;
   padding: 10%;
-  display:block;
+  display:none;
 }
 
 .blinker{}
 
 /* About me section */
-
-.profile-pic{
-
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px; /* future proofing */
-  -khtml-border-radius: 10px; /* for old Konqueror browsers */
-}
 
 /* Education section */
 
@@ -173,12 +205,12 @@ html, body {
 
 /* Portfolio section */
 
-#profile, #work, #portfolio {
+#profile, #education, #work {
   display: none;
   padding: 3%;
 }
 
-#education{
+#portfolio {
   display: block;
   padding: 3%;
 }

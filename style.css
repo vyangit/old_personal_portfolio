@@ -40,6 +40,8 @@ html, body {
 }
 
 /* Containers */
+.container {
+}
 
 .container-fluid {
   margin: 0;
@@ -125,19 +127,17 @@ html, body {
   height: 140px;
 }
 
-/* General template for section components */
-.rounded {
+/* General template for sections */
+.overlay-section {
+  display:none;
+  height: 65%;
+  background-color: rgba(256,256,256,0.3);
+  color: #1a1a1a;
+
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; /* future proofing */
   -khtml-border-radius: 10px; /* for old Konqueror browsers */
-}
-
-.overlay-section {
-  display:display;
-  height: 65%;
-  background-color: rgba(256,256,256,0.3);
-  color: #1a1a1a;
 }
 
 .section-title {
@@ -147,45 +147,25 @@ html, body {
   text-transform: uppercase;
 }
 
-.overlay-card {
-  position: relative;
-  height:240px;
-  width:240px;
-}
-
-.card-image {
-  height:240px;
-  width:240px;
-}
-
-.overlay {
-  height:100%;
-  width:100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.overlay-card:hover .overlay {
-  opacity: 1;
-}
-
 /* Intro section */
 .overlay-intro {
   height: 65%;
   text-align: center;
   padding: 10%;
-  display:none;
+  display:block;
 }
 
 .blinker{}
 
 /* About me section */
+
+.profile-pic{
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
 
 /* Education section */
 

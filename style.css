@@ -49,7 +49,8 @@ html, body {
 
 /* Menu design */
 .menu {
-  height: 120px;
+  height: 39px;
+  width: 128px;
   color: #1a1a1a;
 }
 
@@ -92,11 +93,7 @@ html, body {
   color: #1a1a1a;
   font-size: 20px;
   font-weight:bold;
-  display:block;
-}
-
-.menu-items:hover {
-
+  display:none;
 }
 
 .menu-items .group {
@@ -110,11 +107,16 @@ html, body {
 
 .menu-items ul li{
   display: inline;
+  cursor: pointer;
 }
 
 .menu-items ul li:before{
   content: "|";
-  padding: 8px;
+  padding: 12px;
+}
+
+.menu-btn {
+  text-transform: capitalize;
 }
 
 /* Header */
@@ -133,7 +135,6 @@ html, body {
 }
 
 .overlay-section {
-  display:display;
   height: 70%;
   background-color: rgba(256,256,256,0.3);
   color: #1a1a1a;
@@ -187,11 +188,14 @@ html, body {
 }
 
 /* Intro section */
+#intro {
+  display: block;
+}
+
 .overlay-intro {
   height: 65%;
   text-align: center;
   padding: 10%;
-  display:none;
 }
 
 .blinker{}
@@ -204,13 +208,12 @@ html, body {
 
 /* Portfolio section */
 
-#profile, #education, #work {
+#content {
   display: none;
-  padding: 3%;
 }
 
-#portfolio {
-  display: block;
+#profile, #education, #work, #portfolio {
+  display: none;
   padding: 3%;
 }
 

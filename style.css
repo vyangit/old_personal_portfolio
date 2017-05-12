@@ -10,7 +10,7 @@ html, body {
 }
 
 .main-page{
-  background-image: url("https://www.dropbox.com/s/bez5sfme4neyyi7/background.jpg?dl=0");
+  background-image: url("./img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -1,140 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-	<title>Victor Yan</title>
-    <meta charset="utf-8"/>
+	<head>
+		<title>Victor Yan</title>
+	    <meta charset="utf-8"/>
 
-	<!-- React CDNs -->
-	<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+		<!-- React CDNs -->
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 
-	<!-- General Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
+		<!-- Bootstrap 4!!! -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	<!-- Embedded link to icons -->
-	<script src="https://use.fontawesome.com/9ccd0dd50d.js"></script>
+		<!-- General Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
 
-	<!-- Spreadsheets -->
-	<link type="text/css" href="style.css" rel="stylesheet" media="all" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Embedded link to fontawesome icons -->
+		<script src="https://use.fontawesome.com/9ccd0dd50d.js"></script>
 
-</head>
+		<!-- CSS style sheets -->
+		<link type="text/css" href="style.css" rel="stylesheet" media="all" />
 
-<body class=main-page>
-	<div class="loader">
-		<div class="container-fluid">
-			<!--Page header-->
-			<div class="container">
-					<div id="header" class="header">
-						<div class="left">
-							<div class="menu">
-								<span class="menu-icon" >
-	  							<div class="bar1"></div>
-	  							<div class="bar2"></div>
-	  							<div class="bar3"></div>
-								</span>
-								<span class="text">MENU</span>
-							</div>
-							<div id="menu-items" class="menu-items">
-								<ul class="left group">
-									<li class="menu-btn">profile</li>
-									<li class="menu-btn">education</li>
-									<li class="menu-btn">work</li>
-									<li class="menu-btn">portfolio</li>
-								</ul>
-							</div>
-						</div>
+	</head>
 
-						<div class="right">
-								<a href="https://github.com/vyangit" target="_blank"><span class="fa fa-github fa-3x" aria-hidden="true"></span></a>
-								<a href="https://ca.linkedin.com/in/vicyan" target="_blank"><span class="fa fa-linkedin-square fa-3x" aria-hidden="true"></span></a>
-								<!--<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>-->
-						</div>
-						<!--
-						<div class="logo">
-							<img src="./img/logo.jpg" alt = "Victor Yan" height="128" width="256"></img>
-						</div>-->
-					</div>
-				</div>
-
-				<!-- Welcome message overlay -->
-				<div id="intro" class="container fill-height overlay-intro">
-					<h1>Welcome, my name is Victor <span class="blinker"></span></h1>
-				</div>
-
-				<!--Wrapper for website content-->
-				<div id="content" class="container overlay-section rounded">
-
-					<div id="profile" class="fill-height">
-						<div class="section-title">
-						Profile
-						</div>
-
-						<div class="section-main">
-							<img class="left rounded" style="max-height:100%; max-width:20%;" src="./img/Profile/Victor.jpg" alt="A picture of me :D"></img>
-							<p class="left fill-height" style="max-height:100%; width:75%; font-size:3vh; margin-left:50px">
-									Hi, my name is Victor! I'm a new graduate student from the University of British Columbia. Upon the completion
-									 of my 2nd academic year, I started to develop a passion for the fun, dynamic and technological
-									 world of software engineering and computer science! I was drawn to this field because I felt the skills I would learn would better help me achieve my goal
-									 of making life easier for people of all backgrounds. In addition, being in this field reignited another interest of mine which is to create.
-									 From then on, I chose to make the transition and now here I am (plus with my own website)!
-							</p>
-						</div>
-					</div>
-
-					<div id="education" class="fill-height">
-						<div class="section-title">
-						Education
-						</div>
-
-						<div class="section-main">
-							<div class="overlay-card rounded">
-								<img src="./img/Education/UBC.jpg" class="card-image rounded">
-								<div class="overlay card-text rounded">
-									<h4> University of British Columbia: </h4>
-									<p> Bachelor of Science </p>
-									<p> Combined Major in Computer Science and Microbiology & Immunology </p>
-									<p> September 2013 - May 2017 </p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div id="work" class="fill-height">
-						<div class="section-title">
-						Work
-						</div>
-
-						<div class="section-main">
-							<div class="overlay-card rounded">
-								<img src="./img/Work/UBCTA.jpg" class="card-image rounded">
-								<div class="overlay card-text rounded">
-									<h4> University of British Columbia Computer Science: </h4>
-									<p> Teaching Assistant </p>
-									<p> September 2015 - June 2017 </p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div id="portfolio" class="fill-height">
-						<div class="section-title">
-						Portfolio
-						</div>
-
-						<div class="section-main">
-							<h2>Projects are in development!</h2>
-						</div>
-					</div>
-				</div>
-
-				<!-- Copyright footer -->
-				<div class="container footer">
-				 		<i class="fa fa-copyright" aria-hidden="true"></i> <span>2017 Victor Yan</span>
-				</div>
-			</div>
-		</div>
-
-</body>
+	<body>
+		<div id="header"></div>
+		<div id="education"></div>
+		<div id="work"></div>
+		<div id="projects"></div>
+		<div id="footer"></div>
+	</body>
 </html>

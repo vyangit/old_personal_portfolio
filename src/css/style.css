@@ -1,0 +1,228 @@
+html, body {
+  display: block;
+  margin: 0;
+  height: 100%;
+  color: #1a1a1a;
+}
+
+.fa {
+  color: #1a1a1a;
+}
+
+.main-page{
+  background-image: url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.loader {
+  height: 100%;
+}
+
+/* General hacks */
+.left {
+  float: left;
+  display: inline-block;
+
+}
+
+.right {
+  float: right;
+  display: inline-block;
+
+}
+
+.fill-height {
+ height: 100%;
+ margin:0;
+}
+
+/* Containers */
+
+.container-fluid {
+  margin: 0;
+  height: 100%;
+  padding: 2%
+}
+
+/* Menu design */
+.menu {
+  height: 39px;
+  width: 128px;
+  color: #1a1a1a;
+}
+
+.menu .text{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+  padding-left: 14px;
+  position:absolute;
+}
+
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #1a1a1a;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.expand .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.expand .bar2 {
+  opacity: 0;
+}
+
+.expand .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.menu-items {
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight:bold;
+  display:none;
+}
+
+.menu-items .group {
+  margin:4px;
+  padding:8px;
+}
+
+.menu-items ul{
+  list-style: none;
+}
+
+.menu-items ul li{
+  display: inline;
+  cursor: pointer;
+}
+
+.menu-items ul li:before{
+  content: "|";
+  padding: 12px;
+}
+
+.menu-btn {
+  text-transform: capitalize;
+}
+
+/* Header */
+
+.header {
+  display: block;
+  height: 120px;
+}
+
+/* General template for section components */
+.rounded {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.overlay-section {
+  height: 70%;
+  background-color: rgba(256,256,256,0.3);
+  color: #1a1a1a;
+}
+
+.section-title {
+  display: block;
+  height: 20%;
+  font-size: 5vmin;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.section-main {
+  height: 75%;
+}
+
+.overlay-card {
+  position: relative;
+  height:240px;
+  width:240px;
+}
+
+.card-image {
+  height:240px;
+  width:240px;
+}
+
+.card-text{
+  color: white;
+  font-size: 15px;
+
+}
+
+.overlay {
+  padding: 10%;
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Intro section */
+#intro {
+  display: block;
+}
+
+.overlay-intro {
+  height: 65%;
+  text-align: center;
+  padding: 10%;
+}
+
+.blinker{}
+
+/* About me section */
+
+/* Education section */
+
+/* Work section */
+
+/* Portfolio section */
+
+#content {
+  display: none;
+}
+
+#profile, #education, #work, #portfolio {
+  display: none;
+  padding: 3%;
+}
+
+/* Footer */
+.footer {
+  color: #1a1a1a;
+  text-align: center;
+  margin: 2%;
+}

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './../css/header.css';
-import $ from 'jquery';
-
 
 class Header extends Component{
   constructor(props){

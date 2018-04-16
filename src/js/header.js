@@ -1,27 +1,34 @@
 import React, { Component } from 'react';
-import './../css/header.css'
+import './../css/header.css';
+import $ from 'jquery';
 
 
 class Header extends Component{
   constructor(props){
     super(props);
 
-    this.intro = "";
+    this.state = {intro: ""}
     this.typeIntro = this.typeIntro.bind(this);
   }
 
-  typeIntro() {
-    var totalTimeInMilliseconds = 1000; //0.1 second
-    var introMsg = "Making the world more interesting, one line of code at a time"
-    var timePerChar = totalTimeInMilliseconds/introMsg.length;
+  typeIntro(text, n) {
+    var totalTimeInMilliseconds = 4000/text.length; //0.6 second
 
-    for(var i = 0; i*timePerChar < totalTimeInMilliseconds; i++){
-        this.intro = this.intro + introMsg.charAt(i);
+    if (n < text.length){
+        var intro = this.state.intro + text.charAt(n);
+        n++;
+        setTimeout(function(){
+          this.setState({intro: intro});
+          this.typeIntro(text,n);
+        }.bind(this), totalTimeInMilliseconds);
     }
   }
 
   componentDidMount() {
-    this.typeIntro()
+    var introMsg = "Making the world more exciting, one line at a time"
+    setTimeout(function(){
+        this.typeIntro(introMsg, 0);
+    }.bind(this), 4000);
   }
 
   render() {
@@ -31,7 +38,7 @@ class Header extends Component{
           <div className="row h-100 justify-content-center align-items-center">
             <div>
               <div className="title underline">Victor Yan</div>
-              <div className="subtitle">{this.intro}</div>
+              <div className="subtitle">{this.state.intro}</div>
             </div>
           </div>
         </div>

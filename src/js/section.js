@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import './../css/section.css';
+
+import fontawesome from "@fortawesome/fontawesome";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight} from '@fortawesome/fontawesome-free-solid';
+fontawesome.library.add(faChevronLeft, faChevronRight);
 
 // Props: logo(optional, beware trademarks), organization, role, color, descriptions(array). bg-color, text-color
 class InfoCard extends React.Component {

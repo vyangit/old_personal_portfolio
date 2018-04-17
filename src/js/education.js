@@ -8,8 +8,11 @@ class EducationSection extends React.Component{
 
   render() {
     return (
-      <div>
-      </div>
+      <Section height="75" background="#afd7b4" title="Education">
+        <div className="education">
+
+        </div>
+      </Section>
     );
   }
 }

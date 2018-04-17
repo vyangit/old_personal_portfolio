@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Section} from "./section.js"
 import './../css/header.css';
 
 class Header extends Component{
@@ -32,14 +33,14 @@ class Header extends Component{
   render() {
 
     return (
-        <div style={{height:'100vh'}} className="container-fluid header">
-          <div className="row h-100 justify-content-center align-items-center">
+      <div style={{height:'100vh'}} className="container-fluid">
+          <div className="header row h-100 justify-content-center align-items-center">
             <div>
               <div className="title underline">Victor Yan</div>
               <div className="subtitle">{this.state.intro}</div>
             </div>
           </div>
-        </div>
+      </div>
     );
   }
 }

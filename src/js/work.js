@@ -8,8 +8,10 @@ class WorkSection extends React.Component{
 
   render() {
     return (
-      <div>
-      </div>
+      <Section height="75" background="#fb9692">
+        <div className="work">
+        </div>
+      </Section>
     );
   }
 }

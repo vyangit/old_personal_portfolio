@@ -21,7 +21,7 @@
   height: 1.5vh;
   width: 0%;
   background-color: black;
-  animation: underline 2s linear 2s forwards; /* remove infinite if you want only once */
+  animation: underline 2s linear 2s forwards;
 }
 @keyframes underline {
   to {

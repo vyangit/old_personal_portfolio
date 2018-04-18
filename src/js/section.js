@@ -15,6 +15,7 @@ class InfoCard extends React.Component {
   render() {
     return (
       <div className="card bg-{this.props.bg-color} text-{this.props.text-color}">
+        {this.props.children}
       </div>
     )
   }
@@ -24,12 +25,43 @@ class InfoCard extends React.Component {
 class Section extends React.Component{
   constructor(props){
     super(props);
+
+    this.state = {
+      titleUnderlined: ""
+    }
+    this.title = React.createRef();
+  }
+
+  handleScroll(offset) {
+    let heightDiff = Number(offset);
+    let scrollPos = window.scrollY;
+    if (scrollPos > heightDiff) {
+        this.setState({
+            underlinedTitle:"underline-no-center"
+        });
+    } else {
+        this.setState({
+            underlinedTitle:""
+        });
+    }
+  }
+
+  componentDidMount() {
+    var offset = parseInt(this.title.current.offsetHeight);
+    window.addEventListener('scroll', this.handleScroll.bind(this, offset));
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener('scroll', this.handleScroll)
   }
 
   render() {
     return (
-      <div style={{height: this.props.height + 'vh', backgroundColor:this.props.background}} className="container-fluid">
+      <div style={{height: this.props.height + 'vh', backgroundColor:this.props.background}} >
+          <div className="container-fluid">
+          <div ref={this.title} className={"section-title " + this.state.underlinedTitle}>{this.props.title}</div>
           {this.props.children}
+          </div>
       </div>
     );
   }

@@ -8,7 +8,7 @@ class ProjectSection extends React.Component{
 
   render() {
     return (
-      <Section height="75" background="#fab297">
+      <Section height="75" background="#fab297" title="Projects">
         <div className="project">
         </div>
       </Section>

@@ -16,7 +16,7 @@ class Footer extends React.Component{
 
   render() {
     return (
-      <div style={{height:'35vh', backgroundColor:'#00cccc'}} className="container-fluid">
+      <div style={{height:'30vh', backgroundColor:'#00cccc'}} className="container-fluid">
         <div className="footer row h-100 justify-content-center align-items-center">
           <div className="container-fluid">
             <div style={{fontSize:"10vh"}}>

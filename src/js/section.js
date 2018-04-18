@@ -59,9 +59,10 @@ class Section extends React.Component{
     return (
       <div style={{height: this.props.height + 'vh', backgroundColor:this.props.background}} >
           <div className="container-fluid">
-          <div ref={this.title} className={"section-title " + this.state.underlinedTitle}>{this.props.title}</div>
-          {this.props.children}
+            <div className={"section-title " + this.state.underlinedTitle}>{this.props.title}</div>
+            {this.props.children}
           </div>
+          <div ref={this.title}/>
       </div>
     );
   }

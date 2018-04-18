@@ -8,7 +8,7 @@ class EducationSection extends React.Component{
 
   render() {
     return (
-      <Section height="75" background="#afd7b4" title="Education">
+      <Section height="85" background="#afd7b4" title="Education">
         <div className="education">
 
         </div>

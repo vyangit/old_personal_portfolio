@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.19f2a163.css",
-  "main.css.map": "static/css/main.19f2a163.css.map",
-  "main.js": "static/js/main.0f3ea8d2.js",
-  "main.js.map": "static/js/main.0f3ea8d2.js.map",
+  "main.css": "static/css/main.c3a4a8fd.css",
+  "main.css.map": "static/css/main.c3a4a8fd.css.map",
+  "main.js": "static/js/main.f72e576e.js",
+  "main.js.map": "static/js/main.f72e576e.js.map",
+  "static\\media\\UBC.jpg": "static/media/UBC.426137ec.jpg",
   "static\\media\\background.jpg": "static/media/background.e9475c71.jpg",
-  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg"
+  "static\\media\\blackduck.png": "static/media/blackduck.8da1d5cd.png",
+  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
+  "static\\media\\ubccs.png": "static/media/ubccs.88fe3b8d.png"
 }

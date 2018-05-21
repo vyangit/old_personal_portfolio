@@ -23,6 +23,10 @@
   background-color: rgba(0,0,0,0.7);
   z-index: 2;
 }
+.card-body-content {
+  width: 100%;
+  height: 100%;
+}
 .card-cover-box {
   width: 75%;
   color: white;
@@ -35,16 +39,31 @@
 .card-text-title {
   font-size: 22px;
   font-weight: 600;
+  text-transform: uppercase;
+
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.card-text-role {
+.card-text-description {
   font-weight: 500;
+  padding-bottom: 10px;
 }
 .card-text-date {
   font-weight: 500;
 }
+.card-content-box {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
 
+  border-style: dotted;
+  border-color: grey;
+  border-width: thick;
+  border-left-style: none;
+  border-right-style: none;
+
+}
 .card-transition-enter {
   opacity: 0.01;
 }

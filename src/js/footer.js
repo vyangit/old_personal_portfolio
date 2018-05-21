@@ -32,7 +32,7 @@ class Footer extends React.Component{
                   <FontAwesomeIcon icon={["fab", "linkedin-in"]} color="white" size="sm"/>
                 </span>
               </a>
-              <a className="icon" href="https://github.com/vyangit/vyangit.github.io" target="_blank">
+              <a className="icon" href="https://github.com/vyangit/vyangit.github.io/tree/dev" target="_blank">
                 <span className="fa-layers fa-fw">
                   <FontAwesomeIcon icon="square" color="orangered" size="lg"/>
                   <FontAwesomeIcon icon={["fas", "code-branch"]} color="white" size="sm"/>

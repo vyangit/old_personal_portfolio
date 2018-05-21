@@ -8,9 +8,8 @@ class Slider extends React.Component{
 
   render() {
     return (
-      <div className="work container-fluid d-flex justify-content-center align-items-center" style={{height:'100%'}}>
-        <div className="card-deck" >
-        </div>
+      <div>
+        {/*TODO: Implement a slider to encapsulate the info cards*/}
       </div>
     );
   }

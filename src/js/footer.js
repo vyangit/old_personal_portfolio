@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Section} from "./section.js"
+import Section from "./section.js"
 import './../css/footer.css';
 
 import fontawesome from "@fortawesome/fontawesome";
@@ -30,6 +30,12 @@ class Footer extends React.Component{
                 <span className="fa-layers fa-fw">
                   <FontAwesomeIcon icon="square" color="#0077B5" size="lg"/>
                   <FontAwesomeIcon icon={["fab", "linkedin-in"]} color="white" size="sm"/>
+                </span>
+              </a>
+              <a className="icon" href="https://github.com/vyangit/vyangit.github.io" target="_blank">
+                <span className="fa-layers fa-fw">
+                  <FontAwesomeIcon icon="square" color="orangered" size="lg"/>
+                  <FontAwesomeIcon icon={["fas", "code-branch"]} color="white" size="sm"/>
                 </span>
               </a>
             </div>

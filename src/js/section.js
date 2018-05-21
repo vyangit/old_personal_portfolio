@@ -6,21 +6,6 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight} from '@fortawesome/fontawesome-free-solid';
 fontawesome.library.add(faChevronLeft, faChevronRight);
 
-// Props: logo(optional, beware trademarks), organization, role, color, descriptions(array). bg-color, text-color
-class InfoCard extends React.Component {
-  constructor(props){
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="card bg-{this.props.bg-color} text-{this.props.text-color}">
-        {this.props.children}
-      </div>
-    )
-  }
-}
-
 // Props: header, gradient-color
 class Section extends React.Component{
   constructor(props){
@@ -58,9 +43,9 @@ class Section extends React.Component{
   render() {
     return (
       <div style={{height: this.props.height + 'vh', backgroundColor:this.props.background}} >
-          <div className="container-fluid">
+          <div style={{height:"100%"}} className="container-fluid">
             <div className={"section-title " + this.state.underlinedTitle}>{this.props.title}</div>
-            {this.props.children}
+            <div className="section-body">{this.props.children}</div>
           </div>
           <div ref={this.title}/>
       </div>
@@ -68,4 +53,4 @@ class Section extends React.Component{
   }
 }
 
-export {InfoCard, Section};
+export default Section;

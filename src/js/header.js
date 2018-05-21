@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Section} from "./section.js"
+import Section from "./section.js"
 import './../css/header.css';
 
 class Header extends Component{
@@ -24,7 +24,7 @@ class Header extends Component{
   }
 
   componentDidMount() {
-    var introMsg = "Making the world more exciting, one line at a time"
+    var introMsg = "Making the world exciting, one line at a time"
     setTimeout(function(){
         this.typeIntro(introMsg, 0);
     }.bind(this), 4000);

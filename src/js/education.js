@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {InfoCard, Section} from "./section"
+import Section from "./section";
+import InfoCard from "./infoCard";
+import * as ubc from "./../img/Education/UBC.jpg";
 
 class EducationSection extends React.Component{
   constructor(props){
@@ -9,8 +11,12 @@ class EducationSection extends React.Component{
   render() {
     return (
       <Section height="85" background="#afd7b4" title="Education">
-        <div className="education">
-
+        <div className="education container-fluid d-flex justify-content-center align-items-center" style={{height:'100%'}}>
+          <div className="card-deck" >
+            <InfoCard/>
+            <InfoCard/>
+            <InfoCard/>
+          </div>
         </div>
       </Section>
     );

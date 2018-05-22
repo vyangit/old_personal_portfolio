@@ -19,7 +19,7 @@ class EducationSection extends Component{
             <InfoCard background={ubc}
             title="University of British Columbia"
             description="B.Sc (Computer Science)"
-            date="Sept 2014 - May 2017"
+            date="Sept 2013 - May 2017"
             >
               <b>Major:</b> Combined Major in Computer Science & Microbiology<br/><br/>
               <b>Notable Coursework:</b><br/>

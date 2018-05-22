@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from "./section";
 import InfoCard from "./infoCard";
+import './../css/slider.css';
 
 import ubc from "./../img/Education/UBC.jpg";
 import coursera from "./../img/Education/coursera.png";
@@ -13,8 +14,8 @@ class EducationSection extends React.Component{
   render() {
     return (
       <Section height="85" background="#afd7b4" title="Education">
-        <div className="education container-fluid d-flex justify-content-center align-items-center" style={{height:'100%'}}>
-          <div className="card-deck" >
+        <div className="education container-fluid" style={{height:'100%'}}>
+          <div className="card-deck d-flex align-items-center">
             <InfoCard background={ubc}
             title="University of British Columbia"
             description="B.Sc (Computer Science)"

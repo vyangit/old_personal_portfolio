@@ -1,0 +1,7 @@
+.card-deck{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+}

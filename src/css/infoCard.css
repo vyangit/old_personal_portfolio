@@ -1,10 +1,10 @@
 @media screen and (min-width : 320px) {
   .card {
-    width: 82vw;
+    width: 81.5vw;
     height: 50vh;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 768px) {
   .card {
     width: 28vw;
     height: 45vh;
@@ -38,7 +38,7 @@
   border-width: thin;
 }
 .card-text-title {
-  font-size: 22px;
+  font-size: 3vh;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -56,7 +56,7 @@
   height: 100%;
   width: 100%;
   padding: 10px;
-  font-size: 0.85em;
+  font-size: 2vh;
   text-align: left;
 
   border-style: dotted;
@@ -64,7 +64,6 @@
   border-width: thick;
   border-left-style: none;
   border-right-style: none;
-
 }
 .card-transition-enter {
   opacity: 0.01;

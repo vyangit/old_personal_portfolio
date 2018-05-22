@@ -5,9 +5,9 @@ import InfoCard from "./infoCard";
 import blackDuck from "./../img/Work/blackduck.png";
 import ubcTa from "./../img/Work/ubccs.png";
 
-class WorkSection extends React.Component{
+class WorkSection extends Component{
   constructor(props){
-    super(props);
+    super();
   }
 
   render() {

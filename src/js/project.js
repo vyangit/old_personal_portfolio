@@ -4,9 +4,9 @@ import InfoCard from "./infoCard";
 
 import chromeOverflow from "./../img/Projects/ChromeOverflow.png";
 
-class ProjectSection extends React.Component{
+class ProjectSection extends Component{
   constructor(props){
-    super(props);
+    super();
   }
 
   render() {
@@ -27,7 +27,7 @@ class ProjectSection extends React.Component{
                 description="Chrome DevTool Extension"
                 date="Feb 2017"
                 >
-                <b>Github Link: </b><a href="https://github.com/risamaki/ChromeOverflow" target="_blank">Click here</a><br/><br/>
+                <b>Github Link: </b><a href="https://github.com/risamaki/ChromeOverflow" target="_blank" rel="noopener noreferrer">Click here</a><br/><br/>
                 <b>Description:</b><br/>
                 A chrome extension that monitors the chrome DevTool console for
                 errors. Upon an error, the top 5 question threads for the error are queried

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Section from "./section.js"
 import './../css/header.css';
 
 class Header extends Component{
@@ -11,7 +10,7 @@ class Header extends Component{
   }
 
   typeIntro(text, n) {
-    var totalTimeInMilliseconds = 4000/text.length; //0.6 second
+    var totalTimeInMilliseconds = 3000/text.length; //0.6 second
 
     if (n < text.length){
         var intro = this.state.intro + text.charAt(n);

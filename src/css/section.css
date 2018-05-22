@@ -35,7 +35,7 @@
   height: 1vh;
   width: 0%;
   background-color: black;
-  animation: underline-no-center 1s linear 1s forwards;
+  animation: underline-no-center 1s linear 0.5s forwards;
 }
 @keyframes underline-no-center {
   to {

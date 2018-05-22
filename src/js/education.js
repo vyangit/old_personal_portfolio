@@ -6,9 +6,9 @@ import './../css/slider.css';
 import ubc from "./../img/Education/UBC.jpg";
 import coursera from "./../img/Education/coursera.png";
 
-class EducationSection extends React.Component{
+class EducationSection extends Component{
   constructor(props){
-    super(props);
+    super();
   }
 
   render() {
@@ -34,7 +34,7 @@ class EducationSection extends React.Component{
             description="Coursera E-course"
             date="Jan 2018 - Mar 2018"
             >
-              <b>Course Link: </b><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Click here</a><br/><br/>
+              <b>Course Link: </b><a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener noreferrer">Click here</a><br/><br/>
               <b>Notable Coursework:</b><br/>
               Supervised and Unsupervised Learning<br/>
               Linear & Logistic Regression Modeling<br/>
@@ -42,7 +42,7 @@ class EducationSection extends React.Component{
               Support Vectors<br/>
               PCA and K-Mean Clustering<br/><br/>
               <b>Cool stuff outside of the course!</b><br/>
-              <a href="https://lvdmaaten.github.io/tsne/" target="_blank">t-SNE Visualization</a>
+              <a href="https://lvdmaaten.github.io/tsne/" target="_blank" rel="noopener noreferrer">t-SNE Visualization</a>
             </InfoCard>
           </div>
         </div>

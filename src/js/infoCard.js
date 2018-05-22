@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import './../css/infoCard.css';
-import ubc from "./../img/Education/UBC.jpg";
 
 // Props: logo(optional, beware trademarks), organization, role, color, descriptions(array). bg-color, text-color
-class InfoCard extends React.Component {
+class InfoCard extends Component {
   constructor(props){
     super(props);
 
@@ -17,10 +16,10 @@ class InfoCard extends React.Component {
   }
 
   handleClick(cardPart, e) {
-    if(e.target.tagName.toLowerCase() == "a") {
+    if(e.target.tagName.toLowerCase() === "a") {
       return;
     }
-    if(cardPart == "cover"){
+    if(cardPart === "cover"){
       this.setState({showCover: false});
     } else{
       this.setState({showContent: false});

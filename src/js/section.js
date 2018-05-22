@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import './../css/section.css';
 
-import fontawesome from "@fortawesome/fontawesome";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight} from '@fortawesome/fontawesome-free-solid';
-fontawesome.library.add(faChevronLeft, faChevronRight);
-
 // Props: header, gradient-color
 class Section extends React.Component{
   constructor(props){

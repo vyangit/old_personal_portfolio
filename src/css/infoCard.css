@@ -1,8 +1,12 @@
-@media screen and (min-width : 320px) {
-  .card {
-    width: 81.5vw;
-    height: 50vh;
-  }
+.info-card {
+  display:inline-block;
+  padding: 10px;
+}
+.card {
+  width: 81.5vw;
+  height: 50vh;
+
+  box-shadow: 10px 10px 5px grey;
 }
 @media screen and (min-width: 600px) {
   .card {
@@ -15,13 +19,6 @@
     width: 28vw;
     height: 45vh;
   }
-}
-.info-card {
-  display:inline-block;
-  padding: 10px;
-}
-.card {
-  box-shadow: 10px 10px 5px grey;
 }
 .card-body-overlay {
   position: absolute;

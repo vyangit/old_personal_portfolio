@@ -1,4 +1,6 @@
 .section-title{
+  width:100%;
+
   color: #000000;
   font-size: 8vh;
   font-weight: 450;
@@ -9,11 +11,6 @@
 .section-body {
   height:80%;
   margin:auto;
-}
-@media screen and (min-width : 320px) {
-  .section-title{
-    width:100%;
-  }
 }
 @media screen and (min-width: 600px) {
   .section-title{

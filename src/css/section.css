@@ -15,7 +15,12 @@
     width:100%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
+  .section-title{
+    width: 80%;
+  }
+}
+@media screen and (min-width: 900px) {
   .section-title{
     width: 40%;
   }

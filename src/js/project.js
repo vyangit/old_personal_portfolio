@@ -15,12 +15,24 @@ class ProjectSection extends Component{
         <div className="project container-fluid" style={{height:'100%'}}>
           <div className="card-deck d-flex align-items-center">
               <InfoCard
-                title="Audio Sync"
-                description="In development!"
-                date="May 2018"
+                title="Snapp"
+                description="Universal Window Program"
+                date="July 2018 (Tenative release)"
                 >
                 <b>Description:</b><br/>
                 Stay tuned!
+              </InfoCard>
+              <InfoCard
+                title="Audio Synthesizer"
+                description="CLI Audio Manager"
+                date="June 2018 (In development)"
+                >
+                <b>Github Link: </b><a href="https://github.com/vyangit/audioSynthesizer" target="_blank" rel="noopener noreferrer">Click here</a><br/><br/>
+                <b>Description:</b><br/>
+                Ever watch a video, and find you can only hear the audio from
+                one side of your earphones? The Audio Synthesizer can fix that!
+                This program lets you split stream and sync audio from one audio
+                output side to the other.<br/>
               </InfoCard>
               <InfoCard background={chromeOverflow}
                 title="Chrome Overflow"

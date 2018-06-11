@@ -23,10 +23,10 @@ class WorkSection extends Component{
             >
               <b>Overview:</b><br/>
               On the development team, I collaborate in the implemention of new
-              features. On the data security team, I assist in data analysis and documentation<br/><br/>
-              <b>Development Tools:</b><br/>
-              Java EE, Spring Boot, ReactJS<br/><br/>
-              <b>Data Analysis Tools:</b><br/>
+              features. On the data security team, I assist in data analysis and documentation.<br/><br/>
+              <b>Software Development Tools:</b><br/>
+              Java EE, npm, Spring Boot, ReactJS<br/><br/>
+              <b>Data Analytic Tools:</b><br/>
               Jupyter Notebooks, DBeaver or pgAdmin
             </InfoCard>
             <InfoCard

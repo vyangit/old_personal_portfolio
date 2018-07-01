@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 //import NavBar from './js/navbar';
 import Header from './js/header';
+import AboutMeSection from './js/aboutMe';
 import EducationSection from './js/education';
 import WorkSection from './js/work';
 import ProjectSection from './js/project';
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="App">
         {/*<NavBar/>*/}
         <Header/>
+        <AboutMeSection/>
         <EducationSection/>
         <WorkSection/>
         <ProjectSection/>

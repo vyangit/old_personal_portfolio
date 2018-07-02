@@ -23,7 +23,7 @@ export class AboutMeSection extends Component{
     var overallRowClass = this.state.isVertical ? "":"row";
     var imageContainerColClass = this.state.isVertical ? "":"align-self-center col-4";
     var descriptionContainerColClass = this.state.isVertical ? "":"align-self-center col-8";
-    var fontSizeClass = this.state.isVertical? "aboutMe-description-vertical":"aboutMe-description-vertical";
+    var fontSizeClass = this.state.isVertical? "aboutMe-description-vertical":"aboutMe-description-horizontal";
     var imageSize = this.state.isVertical ? {width:'65%'}:{width:'100%'};
 
     return (

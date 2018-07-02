@@ -1,12 +1,23 @@
-.left-section{
-
+.image-section{
+  padding-top: 5%;
 }
 
-.right-section{
+.description-section{
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-.aboutMe-description{
+.aboutMe-image {
+  border-radius:50%;
+  height: auto;
+}
+
+.aboutMe-description-horizontal{
   text-align: left;
+  font-size: 20px;
+}
+
+.aboutMe-description-vertical{
+  text-align: center;
+  font-size: 2.2vh;
 }

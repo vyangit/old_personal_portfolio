@@ -36,8 +36,8 @@ class Section extends Component{
 
   render() {
     return (
-      <div style={{height: this.props.height + 'vh', backgroundColor:this.props.background}}>
-        <div style={{height:"100%"}} className="container-fluid">
+      <div style={{backgroundColor:this.props.background}}>
+        <div className="container-fluid">
           <div className={"section-title " + this.state.underlinedTitle}>{this.props.title}</div>
           <div ref={this.scrollTrigger}/>
           <div className="section-body">{this.props.children}</div>

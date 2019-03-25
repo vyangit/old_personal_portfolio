@@ -25,7 +25,7 @@ class Footer extends Component{
                   <FontAwesomeIcon icon={["fab", "github"]} color="white" size="sm"/>
                 </span>
               </a>
-              <a className="icon" href="https://www.linkedin.com/in/vicyan/" rel="noopener noreferrer" target="_blank">
+              <a className="icon" href="https://www.linkedin.com/in/victorkyan/" rel="noopener noreferrer" target="_blank">
                 <span className="fa-layers fa-fw">
                   <FontAwesomeIcon icon="square" color="#0077B5" size="lg"/>
                   <FontAwesomeIcon icon={["fab", "linkedin-in"]} color="white" size="sm"/>

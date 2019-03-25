@@ -11,8 +11,8 @@ class ProjectSection extends Component{
 
   render() {
     return (
-      <Section height="85" background="#fab297" title="Projects">
-        <div className="project container-fluid" style={{height:'100%'}}>
+      <Section background="#fab297" title="Projects">
+        <div className="project container-fluid">
           <div className="card-deck d-flex align-items-center">
               <InfoCard
                 title="Snapp"

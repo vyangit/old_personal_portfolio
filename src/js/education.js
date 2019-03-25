@@ -13,8 +13,8 @@ class EducationSection extends Component{
 
   render() {
     return (
-      <Section height="85" background="#afd7b4" title="Education">
-        <div className="education container-fluid" style={{height:'100%'}}>
+      <Section background="#afd7b4" title="Education">
+        <div className="education container-fluid">
           <div className="card-deck d-flex align-items-center">
             <InfoCard background={ubc}
             title="University of British Columbia"

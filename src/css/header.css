@@ -31,10 +31,18 @@
 
 .title{
   color: #000000;
-  font-size: 14vh;
+  font-size: 5em;
   font-weight: 550;
   text-transform: uppercase;
   text-decoration:none;
+}
+@media only screen and (max-width:800px){
+  .title {
+    font-size: 4em;
+  }
+  .underline:after{
+    height: 1vh;
+  }
 }
 
 .subtitle {

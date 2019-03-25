@@ -11,6 +11,7 @@
 .section-body {
   height:80%;
   margin:auto;
+  padding: 1em 0;
 }
 @media screen and (min-width: 600px) {
   .section-title{

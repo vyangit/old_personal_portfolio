@@ -33,12 +33,12 @@ class Header extends Component{
 
     return (
       <div style={{height:'100vh'}} className="container-fluid">
-          <div className="header row h-100 justify-content-center align-items-center">
-            <div>
-              <div className="title underline">Victor Yan</div>
-              <div className="subtitle">{this.state.intro}</div>
-            </div>
+        <div className="header row h-100 justify-content-center align-items-center">
+          <div>
+            <div className="title underline">Victor Yan</div>
+            <div className="subtitle">{this.state.intro}</div>
           </div>
+        </div>
       </div>
     );
   }

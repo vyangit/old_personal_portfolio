@@ -5,8 +5,8 @@
 
 .aboutMe-image {
   border-radius:50%;
-  height: 20em;
-  padding: 1.5em;
+  width: 100%;
+  padding: auto;
 }
 
 .aboutMe-description-horizontal{

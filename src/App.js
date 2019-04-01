@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 //import NavBar from './js/navbar';
-import Header from './js/header';
-import AboutMeSection from './js/aboutMe';
-import EducationSection from './js/education';
-import WorkSection from './js/work';
-import ProjectSection from './js/project';
-import Footer from './js/footer';
+import Header from './js/headerSection';
+import AboutMeSection from './js/aboutMeSection';
+import EducationSection from './js/educationSection';
+import WorkSection from './js/workSection';
+import ProjectSection from './js/projectsSection';
+import Footer from './js/footerSection';
 
 class App extends Component {
 

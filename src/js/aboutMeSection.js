@@ -26,8 +26,8 @@ export class AboutMeSection extends Component{
       <Section background="#c0c0c0" title="About Me">
         <div className="aboutMe container-fluid">
         <div className="row">
-          <div className="col-auto my-auto mx-auto"><img src={me} alt="me" className="aboutMe-image"/></div>
-          <div className="description-section col align-self-center ">
+          <div className="col-xs-12 col-sm-12 col-md-4 my-auto"><img src={me} alt="me" className="aboutMe-image"/></div>
+          <div className="description-section col-xs-12 col-sm-12 col-md-8">
             <p className={fontSizeClass}>
               Hi, my name is Victor! I'm an aspiring software developer and tech enthusiast.
               I joined the exciting and dynamic world of software engineering

@@ -68,6 +68,7 @@
   border-width: thick;
   border-left-style: none;
   border-right-style: none;
+  overflow-y: auto;
 }
 .card-transition-enter {
   opacity: 0.01;

@@ -19,7 +19,7 @@ class WorkSection extends Component{
             background={blackDuck}
             title="Synposys / Black Duck Software"
             description="Research Engineer"
-            date="Sept 2017 - Present"
+            date="Sept 2017 - Oct 2018"
             >
               <b>Overview:</b><br/>
               On the development team, I collaborate in the implemention of new

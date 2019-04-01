@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Section from './section.js'
-import '../css/aboutMe.css';
+import '../css/aboutMeSection.css';
 
 import me from "./../img/AboutMe/me.jpg";
 

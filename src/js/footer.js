@@ -44,7 +44,7 @@ class Footer extends Component{
               <FontAwesomeIcon icon="envelope"/> vyan.git@gmail.com
             </div>
             <div>
-              	 &copy; 2018 Victor Yan
+              	 &copy; 2019 Victor Yan
             </div>
           </div>
         </div>

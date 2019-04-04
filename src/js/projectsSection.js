@@ -26,7 +26,7 @@ class ProjectSection extends Component{
                   <b>Description:</b><br/>
                   Simple Electron app that lets you play embedded videos in a floating window on your desktop.
                 </InfoCard>
-                <InfoCard
+                {/* <InfoCard
                   title="Audio Distributor"
                   description="CLI Audio Distributor"
                   date="June 2018 (In development)"
@@ -37,7 +37,7 @@ class ProjectSection extends Component{
                   one side of your earphones? This audio distributer can fix that!
                   This program lets you split stream and sync audio from one audio
                   output side to the other.<br/>
-                </InfoCard>
+                </InfoCard> */}
                 <InfoCard background={chromeOverflow}
                   title="Chrome Overflow"
                   description="Chrome DevTool Extension"

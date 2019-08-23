@@ -38,12 +38,7 @@ class Footer extends Component{
                 </span>
               </a>
             </div>
-          </div>
-          <div className="container-fluid" style={{fontSize:"3vh"}}>
-            <div>
-              <FontAwesomeIcon icon="envelope"/> vyan.git@gmail.com
-            </div>
-            <div>
+            <div style={{fontSize:"3vh"}}>
               	 &copy; 2019 Victor Yan
             </div>
           </div>
